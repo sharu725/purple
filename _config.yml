@@ -1,0 +1,40 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Webjeda Purple
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Webjeda Purple is a minimal theme built on default jekyll theme. It is very light highly customizable. Suitable for minimal blogs.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://webjeda.com" # the base hostname & protocol for your site #footer built by link
+built-by: webjeda #footer button text
+
+
+baseurl: ""
+permalink: /:title/
+
+#color scheme - Purple theme
+color-1: '#6a3093'
+color-2: '#a044ff' 
+
+#Endless-River theme - remove the '#' 
+#color-1: '#155799'
+#color-2: '#159957' 
+
+#footer icons
+f: webjeda  # facebook username
+t: webjeda  # twitter handle
+g: sharu725 # github username
+
+# Build settings
+markdown: kramdown
+
+
+#Other
+analytics: 'UA-65551407-1'
+disqus-shortname: webjeda-sample    #Disqus comments
