@@ -15,7 +15,7 @@ url: "http://webjeda.com" # the base hostname & protocol for your site #footer b
 built-by: webjeda #footer button text
 
 
-baseurl: ""
+baseurl: "/purple"
 permalink: /:title/
 
 #color scheme - Purple theme
