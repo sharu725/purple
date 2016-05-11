@@ -16,14 +16,14 @@ Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is importa
 ## How to delete old **gh-pages** branch?
 After forking the repository, click on **branches**.
 
-![delete gh-pages branch]({{site.baseurl}}/images/delete-github-branch.png)
+![delete gh-pages branch](/images/delete-github-branch.png)
 
 Delete ``gh-pages`` branch.
-![delete gh-pages branch]({{site.baseurl}}/images/delete-github-branch-2.png)
+![delete gh-pages branch](/images/delete-github-branch-2.png)
 
 You have to create a new ``gh-pages`` branch using the master branch. Go back to the forked repository and create ``gh-pages`` branch.
 
-![create gh-pages branch]({{site.baseurl}}/images/create-gh-pages-branch.JPG)
+![create gh-pages branch](/images/create-gh-pages-branch.JPG)
 
 Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
 
