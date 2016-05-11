@@ -31,12 +31,12 @@ This process will host the theme as a **Project Page**. You can also download th
 
 Default theme will look like this
 
-![webjeda purple jekyll theme](/images/webjeda-purple-jekyll-theme.png){: .border}
+![webjeda purple jekyll theme](/images/webjeda-purple-jekyll-theme.png)
 
 This theme is responsive.
 
-![webjeda purple jekyll responsive theme](/images/webjeda-purple-jekyll-responsive-theme.png){: .border }
-{: .text-center}
+![webjeda purple jekyll responsive theme](/images/webjeda-purple-jekyll-responsive-theme.png)
+
 
 
 # Customization
@@ -52,7 +52,7 @@ color-2: '#159957'
 
 {% endhighlight %}
 
-![webjeda sidebar theme](/images/webjeda-purple-jekyll-theme-2.png){: .border}
+![webjeda sidebar theme](/images/webjeda-purple-jekyll-theme-2.png)
 
 Remember, while developing locally, every change you make in **_config.yml** is applied only if you restart ``jekyll serve`` process.
 
