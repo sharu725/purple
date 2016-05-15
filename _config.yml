@@ -33,7 +33,8 @@ g: sharu725 # github username
 
 # Build settings
 markdown: kramdown
-
+sass:
+    style: compressed
 
 #Other
 analytics: 'UA-65551407-1'

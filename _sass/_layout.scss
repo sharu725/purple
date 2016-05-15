@@ -221,18 +221,30 @@
     }
 }
 
-.post-list h2{margin-bottom: 0;}
+.post-list h2{
+    margin-bottom: 0;
+     @include media-query($on-laptop) {
+            line-height: 1;
+        }
+}
 a.post-link{color: #555}
 a.post-link:hover{color: $color-1}
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
     display: inline-block;
     color: #aaa;
+    @include media-query($on-laptop) {
+            font-size: $small-font-size * 0.7;
+        }
+    
 }
 
 .post-list .post-meta {
     margin-left: 1em;
+     @include media-query($on-laptop) {
+            margin-left: 0.4em;
+        }
+    
 }
 
 .post-link {
@@ -270,7 +282,7 @@ a.post-link:hover{color: $color-1}
         border-bottom: 1px solid #eee;
 
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: $base-font-size * 1.2;
         }
     }
     
@@ -279,7 +291,7 @@ a.post-link:hover{color: $color-1}
         font-size: $base-font-size * 1.5;
 
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: $base-font-size * 1.1;
         }
     }
 
@@ -287,7 +299,7 @@ a.post-link:hover{color: $color-1}
         font-size: $base-font-size * 1.3;
 
         @include media-query($on-laptop) {
-            font-size: 22px;
+            font-size: $base-font-size * 1;
         }
     }
 
@@ -295,9 +307,28 @@ a.post-link:hover{color: $color-1}
         font-size: $base-font-size * 1.1;
 
         @include media-query($on-laptop) {
-            font-size: 18px;
+            font-size: $base-font-size * 0.8;
         }
     }
+    
+        h5 {
+        font-size: $base-font-size * 1;
+
+        @include media-query($on-laptop) {
+            font-size: $base-font-size * 0.7;
+        }
+    }
+    
+        h6 {
+        font-size: $base-font-size * 0.9;
+
+        @include media-query($on-laptop) {
+            font-size: $base-font-size * 0.6;
+        }
+    }
+    
+    
+    
 }
 
 .wrapper.wrap-head {

@@ -24,6 +24,9 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+     @include media-query($on-palm) {
+           font: $base-font-weight #{$base-font-size * 0.9}/#{$base-line-height} $base-font-family;
+    }
 }
 
 
@@ -147,6 +150,7 @@ code {
     border-radius: 3px;
     background-color: transparent;
     text-shadow: 0 0 1px #777;
+
 }
 
 code {
@@ -157,11 +161,17 @@ pre {
     padding: 8px 12px;
     overflow-x: auto;
     display: inline-block;
-
+            @include media-query($on-palm) {
+            display: block;
+    }
+    
+    
     > code {
         border: 0;
         padding-right: 0;
         padding-left: 0;
+        
+
     }
 }
 
@@ -187,11 +197,6 @@ pre {
     }
 }
 
-
-
-/**
- * Clearfix
- */
 %clearfix {
 
     &:after {
@@ -201,22 +206,4 @@ pre {
     }
 }
 
-
-
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
-    }
-}
 
