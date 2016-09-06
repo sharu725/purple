@@ -1,3 +1,11 @@
+
+   *{
+    -webkit-transition: all 0.2s; /* Safari */
+    -webkit-transition-timing-function: linear; /* Safari */
+    transition: all 0.2s;
+    transition-timing-function: linear;
+      }
+
 /**
  * Site header
  */
@@ -578,6 +586,9 @@ ul.contact-ul {
     letter-spacing:2px; 
     color: #fff; 
     text-transform: uppercase;
+    &:hover {
+        text-shadow: 0px 0px 2px;
+    }
     @include media-query($on-palm) {
         font-size: 30px;  
     }
