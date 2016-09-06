@@ -572,3 +572,13 @@ ul.contact-ul {
 }
 
 //contact form in contact page end
+.logo-text {
+    font-size: 75px; 
+    font-weight:600; 
+    letter-spacing:2px; 
+    color: #fff; 
+    text-transform: uppercase;
+    @include media-query($on-palm) {
+        font-size: 30px;  
+    }
+}

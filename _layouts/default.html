@@ -21,19 +21,17 @@ layout: compress
     </div>
 
     {% include footer.html %}
+    
+<script>
+    (function() {
+        var font = document.createElement('link'); 
+        font.type = 'text/css'; 
+        font.rel = 'stylesheet';
+        font.href = '{{site.baseurl}}/css/font.css';
+        var s = document.getElementsByTagName('link')[0]; 
+        s.parentNode.insertBefore(font, s);
+      })();
+</script>    
  {% if site.analytics %}{% include analytics.html %}{% endif %}
- 
-  <script defer>
-var cb = function() {
-var m = document.createElement('link'); m.rel = 'stylesheet';
-m.href = '{{site.baseurl}}/css/font.css';
-var i = document.getElementsByTagName('head')[0]; i.parentNode.insertBefore(m, i);
-};
-var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-webkitRequestAnimationFrame || msRequestAnimationFrame;
-if (raf) raf(cb);
-else window.addEventListener('load', cb);
-</script>
-  </body>
-
+</body>
 </html>
